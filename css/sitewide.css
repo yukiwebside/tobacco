@@ -1,0 +1,347 @@
+/* ------------------------------------------------------------ */
+/* imports and utilities */
+
+/* 3rd-party CSS files */
+@import 'vendor/h5bp-head.css';
+@import 'vendor/normalize.css';
+@import 'vendor/h5bp-tail.css';
+
+/* use a more intuitive box sizing model (http://is.gd/wNVjAo) */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* Scale down images and embedded videos so they don't overflow their parents */
+img, object { max-width: 100%; }
+
+/*	Development/layout aid. Remove the comments
+	on this rule in order to draw boxes around DIVs
+	and other elements used for layout. #D6550B*/
+
+/*div, main, article, section, aside, hgroup, header, footer, address, nav {
+	border: 1px solid #11C1D6 !important;
+	background: rgba(255,0,0,0.05) !important;		
+}
+*/
+
+
+/* ------------------------------------------------------------ */
+/* start project-specifc styles below this line */
+
+body {
+	font-family: 'EB Garamond', serif;
+	font-size: 20px;
+	line-height: 1.5em;
+	background: #D45D0C;
+	color:#fff;
+	line-height:1.4em;
+	text-align: center;
+
+}
+
+/*	Generally, you will only want one container element in
+	the document, wrapping around the main content area. 
+	If you have more than one container, you are probably doing
+	something wrong. 	
+*/
+.container {
+
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 1em;
+	margin-left: auto;
+	width: 100%;
+	text-align: center;
+	/*max-width: 1200px;
+	padding: 2em;
+	border: 5px solid #aaa;
+	display: grid;
+	grid-template-columns: 1fr 2fr;*/
+
+} 
+
+h1{
+	word-spacing: 2em;
+	font-size: 90px;
+	font-family: 'Abril Fatface', cursive;
+	letter-spacing: 2px;
+}
+nav {
+	margin-top: -20px;
+}
+nav li a{
+	text-decoration: none;
+	color: #fff;
+	font-size:30px;
+	font-family: 'Ubuntu', sans-serif;
+}
+nav ul {
+	margin:0px;
+	padding: 5px 0px 5px 30px;
+	/*border-top: 2px solid #fff;
+	border-bottom: 1px solid #fff;
+	margin-right: 240px;
+	margin-left: 240px */
+}
+
+nav li{
+	display: inline;
+	margin-right: 50px;
+}
+
+.cover-context{
+	overflow:auto;
+	margin-top: -2px;
+
+}
+
+.cover-photo {
+	width:730px;
+	height:444px;
+	/*--margin:30px 0 20px 0px;
+	border:1px solid #eeeeee;--*/
+}
+
+.cover {
+	padding: 1rem 2rem 0 2rem;
+}
+
+/*.header {
+	grid-column: span 2;
+	vertical-align: top;
+	text-align: center;
+} */
+/*-----------------------------------------------------*/
+.his {
+	display:grid;
+	grid-template-columns: 1fr 1.5fr;
+	grid-gap: 0.5rem;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 1em;
+	margin-left: auto;
+	width: 100%;
+	padding-top: 2rem;
+}
+
+.his1 {
+	padding:1rem 1rem 0 5rem;
+	align-content: right;
+}
+.his2 {
+	padding:1rem 5rem 0 0;
+}
+
+.history_leaf {
+	width:700px;
+	height:600px;
+	padding-bottom: 2rem;
+	padding-top:3rem;
+	float:left;
+}
+.history_person {
+	height:700px;
+	width:600px;
+	padding-top: 3rem;
+	padding-bottom: 2rem
+}
+
+.his_context1 {
+	text-align: right;
+	padding-left:2rem;
+
+}
+.his_context1:first-letter {
+	font-size: 400%;
+}
+
+
+.his_context2 {
+	text-align: left;
+	size:55px;
+	padding-right:7rem;
+	font:;
+	
+}
+
+.his_context3 {
+	text-align: left;
+	position:relative;
+	left:80px;
+	top:6px;
+	padding:0.5rem 7rem 1rem 1rem;
+}
+
+/*--------------------types----------------------------*/
+.wrapper_type {
+	text-align: center;
+	width:720px;
+	margin:0px auto;
+
+}
+.entry {
+	width:400px;
+	float:left;
+	margin:10px;
+	height:300px;
+	padding-bottom: 20rem;
+	background-image: 
+}
+figure{
+	display:block;
+	width:390px;
+	height:300px;
+	margin:2px 3px 4px 8px;
+	padding:35px;
+	
+	margin-top:2px;
+	text-align: center;
+
+}
+figure img{
+	width:330px;
+	height:230px;
+	padding-bottom: 13px
+	
+}
+.burely{
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+}
+.bur {
+	width:620px;
+	height:400px;
+	margin-left:26%;
+	margin-top:40px;
+}
+.head {
+	font-size: 35px;
+	margin-left:30%;
+	padding: 0em 2em 0em 1em;
+	font-family: 'Oleo Script', cursive;
+}
+.text {
+	display:relative;
+	width:500px;
+	margin-left:22%;
+	text-align:left;
+	padding: 0 0px 5px 2px;
+}
+.bright{
+	width:620px;
+	height:400px;
+	margin-left:5%;
+	margin-top:40px
+}
+.corojo {
+	width:550px;
+	height:400px;
+	margin-left:25%;
+	margin-top:40px
+}
+
+.nico {
+	width:520px;
+	height:400px;
+	margin-left:25%;
+	margin-top:30px
+}
+.shade {
+	width:550px;
+	height:400px;
+	margin-left:25%;
+	margin-top:40px
+}
+.turkish {
+	width:620px;
+	height:400px;
+	margin-left:25%;
+	margin-top:40px
+}
+/*----------------------production--------------------*/
+.compo {
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	margin-top:20px;
+
+}
+.text-culti1 {
+	text-align: left;
+	margin:10%;
+	margin-top: 1px;
+	margin-bottom: 10px;
+	height:350px;
+	width:980px;
+}
+.text-culti2 {
+	text-align: left;
+	height:710px;
+	width:450px;
+	margin-top: -30px;
+	margin-left: 125px;
+}
+
+.curing {
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 1rem;
+	margin-right: 150px;
+	margin-bottom: 1em;
+	margin-left: 160px;
+	width: 920px;
+	text-align: left;
+	font-size: 22px;
+}
+.culti {
+	width:500px;
+	height:520px;
+	margin-right:160px;
+	margin-top: 60px;
+
+}
+.photo-culti {
+	width:700px;
+
+
+}
+
+.title-curing, .title-cultivation {
+	text-align: left;
+	font-size: 50px;
+	margin-left:10px;
+
+}
+/*------------------impact----------------------------*/
+.risk {
+	width: 600px;
+	height:490px;
+	margin-left: 26.5%;
+	border:solid 2em #000;
+	margin-top: 40px;
+}
+.impact-context {
+	display:grid;
+	grid-template-columns: 2fr 2fr 2fr;
+	grid-gap: 1.2rem;
+	margin-bottom: 1em;
+	margin-left: 150px;
+	width: 1000px;
+	height:1000px;
+	text-align: left;
+	font-size: 20px;
+
+}
+.child {
+	height:250px;
+	margin-top:20px;
+}
+.cigarette {
+	margin-top: 20px;
+	height:260px;
+}
+
+
+
+
+
+
+
